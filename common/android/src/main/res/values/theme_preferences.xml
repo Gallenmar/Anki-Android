@@ -15,6 +15,16 @@
     <string name="theme_black_value">3</string>
     <string name="theme_dark_value">4</string>
     <string name="theme_eink_night_value">5</string>
+    <string name="theme_dracula_value">6</string>
+    <string name="theme_t3_chat_value">7</string>
+    <string name="theme_monokai_value">8</string>
+    <string name="theme_monokai_pro_value">9</string>
+
+    <!-- Proper names of editor themes: not translated -->
+    <string name="night_theme_dracula" translatable="false">Dracula</string>
+    <string name="night_theme_t3_chat" translatable="false">T3 Chat</string>
+    <string name="night_theme_monokai" translatable="false">Monokai</string>
+    <string name="night_theme_monokai_pro" translatable="false">Monokai Pro</string>
 
     <string-array name="app_theme_values">
         <item>@string/theme_follow_system_value</item>
@@ -30,5 +40,9 @@
         <item>@string/theme_black_value</item>
         <item>@string/theme_dark_value</item>
         <item>@string/theme_eink_night_value</item>
+        <item>@string/theme_dracula_value</item>
+        <item>@string/theme_t3_chat_value</item>
+        <item>@string/theme_monokai_value</item>
+        <item>@string/theme_monokai_pro_value</item>
     </string-array>
 </resources>

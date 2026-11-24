@@ -46,8 +46,14 @@ class CardAppearance(
             cardClass.append(" night_mode nightMode")
 
             // Emit the dark_mode selector to allow dark theme overrides
-            if (currentTheme == NightTheme.DARK) {
-                cardClass.append(" ankidroid_dark_mode")
+            // Emit a theme selector so flashcard.css can match the card to the app colors
+            when (currentTheme) {
+                NightTheme.DARK -> cardClass.append(" ankidroid_dark_mode")
+                NightTheme.DRACULA -> cardClass.append(" ankidroid_dracula_mode")
+                NightTheme.T3_CHAT -> cardClass.append(" ankidroid_t3_chat_mode")
+                NightTheme.MONOKAI -> cardClass.append(" ankidroid_monokai_mode")
+                NightTheme.MONOKAI_PRO -> cardClass.append(" ankidroid_monokai_pro_mode")
+                else -> {}
             }
         } else {
             // Emit the plain_mode selector to allow plain theme overrides

@@ -72,6 +72,10 @@
         <item>@string/night_theme_black</item>
         <item>@string/night_theme_dark</item>
         <item>@string/day_theme_eink</item>
+        <item>@string/night_theme_dracula</item>
+        <item>@string/night_theme_t3_chat</item>
+        <item>@string/night_theme_monokai</item>
+        <item>@string/night_theme_monokai_pro</item>
     </string-array>
     <string-array name="html_size_code_labels">
         <item>@string/html_size_code_xx_small</item>

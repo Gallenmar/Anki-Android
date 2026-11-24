@@ -154,3 +154,60 @@ scale up, but not down.  */
 .night_mode .replay-button svg {
   fill: white;
 }
+
+/* Editor-inspired night themes (theme_editor_dark.xml) */
+body.ankidroid_dracula_mode {
+  color: #F8F8F2;
+  background-color: #282A36;
+}
+
+.ankidroid_dracula_mode input#typeans {
+  color: #F8F8F2;
+  background-color: #2E303E;
+}
+
+.ankidroid_dracula_mode a {
+  color: #8BE9FD;
+}
+
+body.ankidroid_t3_chat_mode {
+  color: #D2C4DE;
+  background-color: #221D27;
+}
+
+.ankidroid_t3_chat_mode input#typeans {
+  color: #D2C4DE;
+  background-color: #28222D;
+}
+
+.ankidroid_t3_chat_mode a {
+  color: #F472B6;
+}
+
+body.ankidroid_monokai_mode {
+  color: #F8F8F2;
+  background-color: #272822;
+}
+
+.ankidroid_monokai_mode input#typeans {
+  color: #F8F8F2;
+  background-color: #2F302A;
+}
+
+.ankidroid_monokai_mode a {
+  color: #66D9EF;
+}
+
+body.ankidroid_monokai_pro_mode {
+  color: #FCFCFA;
+  background-color: #2D2A2E;
+}
+
+.ankidroid_monokai_pro_mode input#typeans {
+  color: #FCFCFA;
+  background-color: #363337;
+}
+
+.ankidroid_monokai_pro_mode a {
+  color: #78DCE8;
+}
